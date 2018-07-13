@@ -1,0 +1,94 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+<link href="css/index.css" rel="stylesheet">
+
+{% block title %}rewiev sentiment analysis application{% endblock %}
+
+{% block navbar %}
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<!--url_for flask method that use index method in @app.route('/') decorator in
+				weather.py --> 
+			<a class="navbar-brand" href="{{url_for('index')}}">Sentiment analysis</a>
+		</div>
+	</nav>
+{% endblock %} 
+
+
+{% block content %}
+	<!--CSS class assigned to the element.-->
+	       
+        <div class="container">
+            <div class="jumbotron text-center">
+                <h1>SENTIMENT REVIEW ANALYSIS</h1>
+                <p>This small application aims to determine the attitude of a speaker, writer, or other subject with respect to some topic or the overall contextual polarity or emotional reaction 
+                    to a document, interaction, or event. </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" role="button" target="_blank" href="https://en.wikipedia.org/wiki/Sentiment_analysis">Learn more</a>
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    
+                <div class="col-md-12 text-center">
+                    <!--{{wtf.quick_form(form)}}-->				
+                    <form method="POST" action="">
+                        {{form.name.label}} {{form.name(size=300, class="form-control", id="review", required="required", value="", 
+                          placeholder="put your review in english here")}}
+                        {% for error in form.name.errors %}
+                            {{ error }}
+                        {% endfor %}
+                        <br>
+                        <br>
+                        <div class="col-md-4 text-center">
+                        </div>
+                
+                        <div class="col-md-4 text-center">
+                            {{ form.submit(class="btn btn-success btn-block") }}
+                            {{ form.hidden_tag() }}
+                        </div>
+                
+                        <div class="col-md-4 text-center">
+                        </div>
+                        
+                    </form>
+                    <div class="col-md-12 text-center">
+                        {% if name %}
+                            <h1>{{name}}</h1>
+                        {% endif %}
+                    </div>    
+                </div>
+                
+                
+            </div>		
+        </div>	
+	 
+    
+	
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

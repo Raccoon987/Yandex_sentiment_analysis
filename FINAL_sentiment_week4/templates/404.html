@@ -1,0 +1,24 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+<link href="css/index4.css" rel="stylesheet">
+<style type=text/css>
+        background-image: url("static/pictures/senticorr.jpg");
+</style>
+
+{% block title %}Movie rewiev sentiment analysis application{% endblock %}
+
+{% block navbar %}
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<!--url_for flask method that use index method in @app.route('/') decorator in
+				weather.py --> 
+			<a class="navbar-brand" href="{{url_for('index')}}">Sentiment analysis</a>
+		</div>
+	</nav>
+{% endblock %} 
+
+
+{% block content %}
+    <h1>Not Found</h1>
+    <p><a href="{{url_for('index')}}">Return to home page</a></p>
+{% endblock %} 
