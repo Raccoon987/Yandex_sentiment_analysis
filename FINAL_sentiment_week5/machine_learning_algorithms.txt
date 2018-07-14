@@ -1,0 +1,56 @@
+Almeida–Pineda recurrent backpropagation
+Backpropagation
+Bootstrap aggregating
+CN2 algorithm
+Constructing skill trees
+Dehaene–Changeux model
+Diffusion map
+Dominance-based rough set approach
+Dynamic time warping
+Error-driven learning
+Evolutionary multimodal optimization
+Expectation–maximization algorithm
+FastICA
+Forward–backward algorithm
+GeneRec
+Genetic Algorithm for Rule Set Production
+Growing self-organizing map
+HEXQ
+Hyper basis function network
+IDistance
+K-nearest neighbors algorithm
+Kernel methods for vector output
+Kernel principal component analysis
+Leabra
+Linde–Buzo–Gray algorithm
+Local outlier factor
+Logic learning machine
+LogitBoost
+Loss functions for classification
+Manifold alignment
+Minimum redundancy feature selection
+Mixture of experts
+Multiple kernel learning
+Non-negative matrix factorization
+Online machine learning
+Out-of-bag error
+Prefrontal cortex basal ganglia working memory
+PVLV
+Q-learning
+Quadratic unconstrained binary optimization
+Query level feature
+Quickprop
+Radial basis function network
+Randomized weighted majority algorithm
+Reinforcement learning
+Rprop
+Rule-based machine learning
+Skill chaining
+Sparse PCA
+State-Action-Reward-State-Action
+Stochastic gradient descent
+Structured kNN
+T-distributed stochastic neighbor embedding
+Temporal difference learning
+Wake-sleep algorithm
+Weighted Majority Algorithm
