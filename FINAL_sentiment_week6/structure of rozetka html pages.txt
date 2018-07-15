@@ -1,0 +1,33 @@
+<div class="g-i-tile-i-box-desc">
+    <div name="prices_activate_elementes_original">
+        <div class="g-rating">
+	    <a class="novisited g-rating-rewievs-link" href="http://rozetks.com.ua/globex mint red/p6956558/comments/" ...	
+
+reviews:
+ 
+<div class="pp-review-inner">
+        <div class="g-rating-b">
+            <span class="sprite g-rating-stars">
+                <span class="sprite g-rating-stars-i" content="4"...>
+
+    
+		<div class="pp-rewiev-text-i">
+                     Text
+                </div>
+                <div class="pp-rewiev-text-i">
+ 		    <span class="bold">Достоинства:</span> 
+                    Text
+                </div>
+                <div class="pp-rewiev-text-i">
+ 		    <span class="bold">Недостатки:</span> 
+                    Text
+                </div>
+
+
+amount of pages: 
+
+<ul class ="clearfix inline" name="paginator">
+                        <li class="paginator-catalog-l-i" id="page1">
+                        ...
+                        <li class="paginator-catalog-l-i" id="page n">
+
