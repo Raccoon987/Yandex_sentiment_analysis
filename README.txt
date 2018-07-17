@@ -1,3 +1,5 @@
+THIS IS ONE OF THE FINAL PROJECTS OF MIPT & YANDEX MACHINE LEARNING COURSERA COURSE
+
 sentiment analysis
 
 In this project, you have to solve the sentiment analysis task of the texts in several different ways.
